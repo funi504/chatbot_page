@@ -1,0 +1,68 @@
+.container{
+    background-color:rgb(250, 250, 250);
+    width:100%;
+}
+.nav{
+    display:flex;
+    justify-content:center;
+    background-color:white;
+    height: 90px ;
+    width:100%;
+    position:fixed;
+
+}
+
+.nav-brand{
+
+    display: flex;
+    flex-direction: "column";
+    margin-right: 45%;
+    align-items: center;
+    color: rgb(161, 221, 230);
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-ul{
+    
+    display: flex;
+    flex-direction: "column";
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(54, 54, 54); 
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.nav-ul a{
+
+    text-decoration: none;
+    color: rgb(54, 54, 54); 
+}
+.nav-ul :hover{
+
+    color: rgb(161, 221, 230);
+    transition: color .3s;
+}
+.sign-in{
+    border:2px solid  rgb(14, 192, 247);
+    padding:5px;
+    border-radius: 5px;
+    background-color:rgb(14, 192, 247);
+    color: white; 
+}
+
+@media only screen and (max-width: 830px) {
+   
+    .nav{
+        height: 60px;
+        width:100%;
+    }
+    .nav-ul{
+        display:none;
+    }
+    .nav-brand{
+        margin-right:55%;
+    }
+
+  }
+
