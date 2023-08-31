@@ -1,73 +1,58 @@
 import "./aboutStyle.css"
+import { RiCustomerService2Fill } from "react-icons/ri";
+import { PiWechatLogoThin } from "react-icons/pi";
+import { BsGraphUpArrow } from "react-icons/bs";
 
 export function About(){
 
     return(
         <div className="about-container" id='about'>
-            <br/>
-            <br/>
-            <br/>
-            <div className="about-tag"> ABOUT ME</div>
-            <br/>
-            <div className= "short-desc">Here you will find more information about me,
-                 what I do, and my current skills mostly in terms of programming and technology
+            <div className="about-header">
+                <h1 className='about-header-tag'>Elevating Support Services to Unprecedented Excellence</h1>
+                <p className='about-header-slogan'>
+                    Accelerate the achievement of your team and customers' objectives with our assistance
+                </p>
             </div>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <div className="about-info">
-
-                <div >
-
-                    <div className= 'about-info-header'>Get to know me!</div>
-                    <br/>
-                    <div className= 'about-info-tag'>
-                    As a web and mobile developer with a keen interest in AI and data science,
-                     I have experience in developing innovative solutions that harness the power
-                      of these technologies to create impactful and data-driven applications.
-                       
+            <div className="about-product-cards">
+                <div className='card'>
+                    <div className='card-icon'>
+                        <RiCustomerService2Fill size={150} color={'rgb(14, 192, 247)'}/>
                     </div>
-                    <br/>
-                    <div className= 'about-info-tag'>
-                    My portfolio showcases my skills and expertise in developing web and mobile
-                    applications that are intuitive, user-friendly, and highly functional.
-                    
-                    </div>
-                    <br/>
-                    <div className= 'about-info-tag'>
-                    One of my most recent projects involved the development 
-                    of a mobile app that uses machine learning algorithms to 
-                    detect deep fake images.
-                    </div>
+                    <h2 className='card-tag'>Support Services 24/7</h2>
+                    <p className='card-info'>
+                    Experience hassle-free issue resolution and instant query responses,
+                    tailored to your schedule. Elevate your support experience with our
+                    always-available chatbot service.
+                    </p>
                 
                 </div>
 
-                <br/>
+                <div className='card'>
+                    <div className='card-icon'>
+                        <PiWechatLogoThin size={150} color={'rgb(14, 192, 247)'}/>
+                    </div>
+                    <h2 className='card-tag'>Enriched customer interaction</h2>
+                    <p className='card-info'>
+                    Effortlessly integrate email and WhatsApp into our bot for seamless 
+                    cross-platform communication.
+                    providing customers with a streamlined interaction experience.
+                    </p>
+                </div>
 
-                <div>
-                <div className= 'about-info-header-skills'>My Skills</div>
-                
-                <br/>
-                <div className="skills-style">
-                    <div className='skills'>REACT</div>
-                    <div className='skills'>REACT NATIVE</div>
-                    <div className='skills'>PYTORCH</div>
-                    
+                <div className='card'>
+                    <div className='card-icon'>
+                        <BsGraphUpArrow size={150} color={'rgb(14, 192, 247)'} />
+                    </div>
+                    <h2 className='card-tag'>Boost team productivity</h2>
+                    <p className='card-info'>
+                    Automate answering repetitive questions to free up 
+                    your team's bandwidth for tackling more complex cases, 
+                    optimizing productivity and customer satisfaction.
+                    </p>
+            
                 </div>
-                
-                <div className="skills-style">
-                    <div className='skills'>GIT</div>
-                    <div className='skills'>GITHUB</div>
-                    
-                </div>
-                <div className="skills-style">
-                    <div className='skills'>JAVASCRIPT</div>
-                    <div className='skills'>PYTHON</div>
-                </div>
-                </div>
+            
             </div>
-           
         </div>
         
         )

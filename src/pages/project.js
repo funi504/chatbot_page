@@ -12,6 +12,15 @@ export function project(){
             <br/>
             <br/>
             <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <div className='project-tag'>PROJECTS</div>
             <div className='project'>
             <div className='project-picture'>
