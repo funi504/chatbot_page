@@ -16,7 +16,7 @@ export default function footer(){
                     <div className='left-desc'> 
                         A web and mobile developer with a keen interest in AI and data science
                     </div>
-                    <div className='left-desc'>Currently studying at the University of Limpopo</div>
+                    <div className='left-desc'></div>
             
                 </div>
                 
